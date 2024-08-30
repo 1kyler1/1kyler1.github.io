@@ -13,7 +13,7 @@ body {
   min-height: 100vh;
   padding: 0;
   margin: 0;
-  color: white; /* Sets text color to white for better readability against the background */
+  color: black; /* Sets text color to white for better readability against the background */
 }
 
 main {
@@ -75,4 +75,19 @@ main {
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+}
+
+.resume-background {
+  background-color: white; /* Or any other background style */
+  padding: 20px; /* Adds some spacing around the content */
+  border-radius: 8px; /* Optional rounded corners */
+  max-width: 800px; /* Adjust to your preferred width */
+  margin: 20px auto; /* Centers the container */
+}
+
+.resume-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px; /* Set a consistent max width for all sections */
+  padding: 0 20px; /* Adds padding on the left and right */
 }
