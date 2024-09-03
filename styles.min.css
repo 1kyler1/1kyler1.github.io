@@ -118,3 +118,16 @@ main {
   margin-left: 10px; /* Additional indentation for list items */
 }
 
+
+.section p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center-aligns vertically */
+  margin: 0; /* Removes default margins for clean alignment */
+}
+
+/* Styling for the date */
+.date {
+  margin-left: auto; /* Pushes the date to the far right */
+  font-weight: normal; /* Makes the date text less bold, adjust as needed */
+}
