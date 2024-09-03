@@ -70,7 +70,7 @@ main {
   font-weight: bold;
   text-decoration: none;
   letter-spacing: 2px;
-  margin:
+  margin
 }
 
 /* CSS for page footer */
@@ -101,6 +101,20 @@ main {
   margin-right: auto;
   /* max-width: 800px; Set a consistent max width for all sections */
   width: 100%;
-  padding: 0 20px; /* Adds padding on the left and right */
-  margin: 60px auto;
+  padding: 20px; /* Adds padding on the left and right */
+  margin: 15px;
+  line-height: 1.6;
 }
+
+/* Indentation for bullet points in resume sections */
+.resume-content ul {
+  padding-left: 20px; /* Adjust the value for desired indentation */
+  margin-top: 0; /* Optional: Remove extra margin above the list */
+  margin-bottom: 10px; /* Optional: Add space below the list */
+}
+
+/* Optional: Apply further indentation to list items, if needed */
+.resume-content ul li {
+  margin-left: 10px; /* Additional indentation for list items */
+}
+
