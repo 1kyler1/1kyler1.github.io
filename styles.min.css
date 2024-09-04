@@ -87,6 +87,10 @@ main {
   height: 2.5rem;
 }
 
+
+/* css for the resume section */
+/*                            */
+/*                            */
 .resume-background {
   background-color: white; /* Or any other background style */
   padding: 20px; /* Adds some spacing around the content */
@@ -132,6 +136,10 @@ main {
   font-weight: normal; /* Makes the date text less bold, adjust as needed */
 }
 
+
+/* css for the portfolio page */
+/*                            */
+/*                            */
 .website-project {
   background-color: white; /* Sets background color to white */
   padding: 20px; /* Adds some space inside the section */
@@ -141,5 +149,9 @@ main {
   max-width: 800px; /* Sets a max width for the section */
   text-align: center; /* Centers text and content */
 }
+
+/* css for stylign my name on index page */
+
+
 
 
