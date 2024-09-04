@@ -131,3 +131,15 @@ main {
   margin-left: auto; /* Pushes the date to the far right */
   font-weight: normal; /* Makes the date text less bold, adjust as needed */
 }
+
+.website-project {
+  background-color: white; /* Sets background color to white */
+  padding: 20px; /* Adds some space inside the section */
+  margin: 20px auto; /* Centers the section with margin */
+  border-radius: 8px; /* Optional: Adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+  max-width: 800px; /* Sets a max width for the section */
+  text-align: center; /* Centers text and content */
+}
+
+
