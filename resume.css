@@ -5,8 +5,11 @@
   max-width: 800px; 
   width: 100%;
   margin: 60px auto; 
+  
 }
-
+.name {
+  text-align: center;
+}
 .resume-content {
   margin-left: auto;
   margin-right: auto;
@@ -28,6 +31,17 @@
 .resume-content ul li {
   margin-left: 10px; 
 }
+
+.contact-info {
+  margin: 20px 0;
+  text-align: center; /* Center text inside the div */
+}
+
+/* Centering the download button */
+.download {
+  text-align: center;
+}
+
 
 .section p {
   display: flex;
