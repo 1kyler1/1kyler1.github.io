@@ -20,9 +20,10 @@ body {
   padding-top: 60px;
   margin: 0;
   color: black; 
-}
+} */
 
-main {
+main { 
+  flex: 1;
   padding: 0 20px 40px 20px;
   display: flex;
   flex-direction: column;
@@ -30,9 +31,9 @@ main {
   align-items: center;
   width: 100%;
   margin: 0 auto;
-}
+} 
 
-/* CSS for navigation bar */
+/* /* CSS for navigation bar */
 
 .navbar {
   position: fixed;
@@ -52,9 +53,9 @@ main {
   padding: 0;
   margin: 0;
 
-  /* Debug border */
-  /* border: solid red; */
-}
+  
+  
+} 
 
 .nav-list {
   display: flex;
@@ -73,6 +74,16 @@ main {
   margin
 }
 
+.navbar a:hover {
+  background-color: white; /* White box */
+  color: black; /* Black text inside the white box */
+  border-radius: 3px; /* Rounded corners */
+  padding: 2px 3px;
+  border-bottom: none; /* Remove underline on hover */
+}
+
+
+
 /* CSS for page footer */
 
 .footer {
@@ -81,10 +92,11 @@ main {
   align-items: center;
   background-color: black;
   color: white;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+
 }
 
 
