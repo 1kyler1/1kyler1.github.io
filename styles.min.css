@@ -5,21 +5,21 @@
 }
 html {
   height: 100%;
-  overflow-y: scroll; /* Forces vertical scrollbar to prevent content shift */
+  overflow-y: scroll; 
 }
 
 body {
-  background-color: black; /* Fallback color in case the image doesn't load */
-  background-image: url('dark_mountain.jpg'); /* Replace with the correct path to your image */
-  background-size: cover; /* Ensures the image covers the entire screen */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  background-attachment: fixed; /* Keeps the image fixed in place during scroll */
+  background-color: black; 
+  background-image: url('dark_mountain.jpg'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
   position: relative;
   min-height: 100vh;
   padding-top: 60px;
   margin: 0;
-  color: black; /* Sets text color to white for better readability against the background */
+  color: black; 
 }
 
 main {

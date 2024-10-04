@@ -1,28 +1,28 @@
 .cutout-box {
-    display: flex; /* Centers content horizontally */
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
-    height: 450px; /* Sets the height of the white square */
-    width: 450px; /* Sets the width of the white square */
-    margin: 100px auto; /* Centers the box horizontally and adds margin from the top */
-    background-color: white; /* White background for the box */
-    position: relative; /* Allows for absolute positioning of children */
-    overflow: hidden; /* Ensures no overflow outside the container */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 450px; 
+    width: 450px;
+    margin: 100px auto; 
+    background-color: white;/
+    position: relative; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
   
   /* Style for the cutout text */
   .cutout-text {
-    font-size: 120px; /* Adjust the font size as needed */
-    font-weight: bold; /* Makes the text bold */
-    background: url('dark_mountain.jpg') center center / cover no-repeat; /* Background image that matches the body */
-    -webkit-background-clip: text; /* Clips the background to the text (for webkit browsers) */
-    background-clip: text; /* Clips the background to the text */
-    color: transparent; /* Makes the text itself transparent */
-    margin: 0; /* Removes any default margin */
+    font-size: 120px; 
+    font-weight: bold; 
+    background: url('dark_mountain.jpg') center center / cover no-repeat; 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    margin: 0; 
     text-align: center;
-    text-transform: uppercase; /* Optional: Transforms text to uppercase */
-    z-index: 1; /* Ensures the text is above other content */
+    text-transform: uppercase; 
+    z-index: 1; 
   }
 
 

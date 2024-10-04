@@ -1,7 +1,7 @@
 /* Style for the contact form */
 #contact-form {
   max-width: 400px; 
-  margin: 20px auto; /* Centers the form horizontally */
+  margin: 20px auto; /* Centers the form horizontaly */
   padding: 20px; 
   background-color: white; /* Sets the background color of the form */
   border-radius: 8px; /* Adds rounded corners */
@@ -15,19 +15,19 @@
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form textarea {
-  width: 100%; /* Makes inputs fill the width of the form */
-  padding: 10px; /* Adds padding inside the inputs */
-  border: 1px solid #ddd; /* Adds a border around the inputs */
-  border-radius: 4px; /* Adds rounded corners */
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
   font-size: 16px; 
   box-sizing: border-box; 
 }
 
 /* Style for the submit button */
 #contact-form input[type="submit"] {
-  background-color: #007bff; /* Sets background color for the button */
-  color: white; /* Sets text color for the button */
-  padding: 10px 20px; /* Adds padding around the button text */
+  background-color: #007bff; 
+  color: white; 
+  padding: 10px 20px; 
   border: none; 
   border-radius: 4px; 
   cursor: pointer; 

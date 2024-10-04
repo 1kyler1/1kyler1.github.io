@@ -1,10 +1,10 @@
 .resume-background {
-  background-color: white; /* Or any other background style */
-  padding: 20px; /* Adds some spacing around the content */
-  border-radius: 8px; /* Optional rounded corners */
-  max-width: 800px; /* Adjust to your preferred width */
+  background-color: white; 
+  padding: 20px; 
+  border-radius: 8px; 
+  max-width: 800px; 
   width: 100%;
-  margin: 60px auto; /* Centers the container */
+  margin: 60px auto; 
 }
 
 .resume-content {
@@ -12,32 +12,32 @@
   margin-right: auto;
   /* max-width: 800px; Set a consistent max width for all sections */
   width: 100%;
-  padding: 20px; /* Adds padding on the left and right */
+  padding: 20px; 
   margin: 15px;
   line-height: 1.6;
 }
 
 /* Indentation for bullet points in resume sections */
 .resume-content ul {
-  padding-left: 20px; /* Adjust the value for desired indentation */
-  margin-top: 0; /* Optional: Remove extra margin above the list */
-  margin-bottom: 10px; /* Optional: Add space below the list */
+  padding-left: 20px; 
+  margin-top: 0; 
+  margin-bottom: 10px; 
 }
 
-/* Optional: Apply further indentation to list items, if needed */
+
 .resume-content ul li {
-  margin-left: 10px; /* Additional indentation for list items */
+  margin-left: 10px; 
 }
 
 .section p {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Center-aligns vertically */
-  margin: 0; /* Removes default margins for clean alignment */
+  align-items: center; 
+  margin: 0; 
 }
 
 /* Styling for the date */
 .date {
   margin-left: auto; /* Pushes the date to the far right */
-  font-weight: normal; /* Makes the date text less bold, adjust as needed */
+  font-weight: normal; 
 }
